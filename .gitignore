@@ -3,3 +3,6 @@ node_modules/
 
 # Release directory
 release/
+
+# vscode
+.vscode
