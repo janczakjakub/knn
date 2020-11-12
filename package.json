@@ -1,0 +1,19 @@
+{
+    "name": "algorithm-knn",
+    "version": "1.0.0",
+    "description": "Machine learning - language JavaScript/Typescript, algorithm KNN (k nearest neighbours)",
+    "main": "src/index.js",
+    "author": "Jakub Janczak",
+    "scripts": {
+        "prepare": "gulp prepare",
+        "compile": "node_modules/.bin/tsc",
+        "build": "npm run prepare && npm run compile",
+        "start": "npm run build && node release/index.js"
+    },
+    "dependencies": {
+        "gulp": "4.0.2",
+        "gulp-cli": "2.2.0",
+        "jimp": "^0.16.1",
+        "typescript": "3.5.3"
+    }
+}
